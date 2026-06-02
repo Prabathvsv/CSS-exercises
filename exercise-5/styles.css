@@ -1,0 +1,18 @@
+h1{
+    TEXT-ALIGN: CENTER;
+}
+button{
+    DISPLAY: BLOCK;
+    MARGIN: 0 AUTO;
+    PADDING: 10px 20px;
+    BACKGROUND-COLOR: #007BFF;
+    COLOR: WHITE;
+    BORDER: NONE;
+    CURSOR: POINTER;
+    transition: all 0.5s;
+    
+}
+button:hover{
+    BACKGROUND-COLOR: green;
+    traNSFORM: SCALE(1.1);
+}
