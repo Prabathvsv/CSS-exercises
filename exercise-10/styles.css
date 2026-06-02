@@ -1,0 +1,35 @@
+body{
+    align-items: center;
+    text-align: center;
+
+}
+div{
+    margin-top: 50px;
+}
+.ball{
+    margin-top : 50px;
+    
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 255, 0);
+    border-radius: 50%;
+    
+    border: 25px solid black;
+    align-content: center;
+    animation: move 10s linear infinite;
+}
+@keyframes move {
+    0%{
+        transform: translate(0, 0) rotate(0deg);
+    }
+    
+    50%{
+        transform: translate(1700px, 0) rotate(360deg);
+    }
+   
+    100%{
+        transform: translate(0, 0) rotate(720deg);
+    }
+   
+}
+
