@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+div{
+    margin: 50px auto;
+    display: flex;
+    
+    justify-content: center;
+}
+img{
+    transition: all 0.5s ease;
+    BORDER: 2px solid black;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+
